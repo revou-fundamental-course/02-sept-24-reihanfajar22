@@ -1,3 +1,60 @@
-.main.header {
+html {
+  background-color: rgb(100, 100, 100);
+}
+
+.main-header {
   text-align: center;
+}
+
+.tombol {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  height: 30px;
+  border-radius: 3px;
+  border: 0;
+  margin: 2px;
+}
+
+.header-segitiga {
+  text-align: center;
+}
+
+input {
+  border: 0cap;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-luas {
+  text-align: center;
+}
+
+.input {
+  width: 50%;
+  margin: 1px;
+}
+
+aside {
+  width: 50%;
+}
+
+.luas {
+  display: flex;
+}
+
+.hitung-btn {
+  align-items: center;
+  margin: 5px;
 }
