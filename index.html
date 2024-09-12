@@ -14,7 +14,7 @@
       <p>Oi iki Katik</p>
     </header>
     <!-- ini main -->
-    <main>
+    <main class="konten">
       <section class="tombol">
         <button>segitiga</button>
         <button>jajar genjang</button>
@@ -28,7 +28,7 @@
 
           <article>
             <img src="aset/luas1.png" alt="" />
-            <p>rumus segitiga:</p>
+            <p>rumus luas segitiga: 1/2 * a * t</p>
           </article>
 
           <hr />
@@ -36,22 +36,24 @@
           <form>
             <header class="header-luas"><h2>hitung luas segitiga</h2></header>
             <div>
-              <label for="alas">alas:</label><br />
-              <input type="number" id="alas" name="alas" placeholder="alas" />
+              <input
+                type="number"
+                id="alas"
+                name="alas"
+                placeholder="masukan alas"
+              />
             </div>
-
+            <br />
             <div>
-              <label for="tinggi">Tinggi:</label><br />
               <input
                 type="number"
                 id="tinggi"
                 name="tinggi"
-                placeholder="tinggi"
+                placeholder="masukan tinggi"
               />
             </div>
-
-            <button onclick="hitung">hitumg</button>
           </form>
+          <button class="hitung-btn" OnClick="luas()">hitung</button>
         </aside>
 
         <aside class="luas-segitiga">
@@ -61,29 +63,29 @@
 
           <article>
             <img src="aset/luas1.png" alt="" />
-            <p>rumus segitiga:</p>
+            <p>rumus segitiga: s + s + s</p>
           </article>
 
           <hr />
 
-          <form>
+          <form class="">
             <header class="header-luas">
               <h2>hitung keliling segitiga</h2>
             </header>
             <div>
-              <label for="alas1">alas:</label><br />
-              <input type="number" id="alas1" name="alas1" />
+              <input
+                type="number"
+                id="sisi"
+                name="sisi"
+                placeholder="masukan sisi"
+              />
             </div>
-
+            <!--ini output  -->
             <div>
-              <label for="tinggi1">Tinggi:</label><br />
-              <input type="number" id="tinggi1" name="tinggi1" />
-            </div>
-
-            <div>
-              <button class="hitung-btn" onclick="hitung()">hitung</button>
+              <p id="keliling"></p>
             </div>
           </form>
+          <button class="hitung-btn" onclick="hitung()">hitung</button>
         </aside>
       </div>
     </main>
