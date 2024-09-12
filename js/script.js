@@ -7,7 +7,7 @@ function hitung() {
 
   let hasil = parseInt(sisi) * 3;
   console.log(hasil);
-  document.writeln("Hasilnya adalah" + " " + hasil).innerHTML = hasil;
+  document.writeln("Hasilnya adalah" + " " + hasil);
 }
 
 function luas() {
